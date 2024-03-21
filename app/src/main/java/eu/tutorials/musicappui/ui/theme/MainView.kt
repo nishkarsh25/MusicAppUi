@@ -52,17 +52,12 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
-import eu.tutorials.musicappui.MainViewModel
+
 import eu.tutorials.musicappui.R
 import eu.tutorials.musicappui.Screen
 import eu.tutorials.musicappui.screensInBottom
 import eu.tutorials.musicappui.screensInDrawer
-import eu.tutorials.musicappui.ui.theme.AccountDialog
-import eu.tutorials.musicappui.ui.theme.AccountView
-import eu.tutorials.musicappui.ui.theme.Browse
-import eu.tutorials.musicappui.ui.theme.Home
-import eu.tutorials.musicappui.ui.theme.Library
-import eu.tutorials.musicappui.ui.theme.Subscription
+
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 
@@ -84,7 +79,7 @@ fun MainView(){
 
     Scaffold(
         topBar = {
-            TopAppBar(title = { Text(title.value) },
+            TopAppBar(title = { Text("Home") },
 
                 navigationIcon = { IconButton(onClick = {
                     // Open the drawer
