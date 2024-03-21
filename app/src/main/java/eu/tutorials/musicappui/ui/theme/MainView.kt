@@ -59,6 +59,7 @@ import eu.tutorials.musicappui.screensInBottom
 import eu.tutorials.musicappui.screensInDrawer
 import eu.tutorials.musicappui.ui.theme.AccountDialog
 import eu.tutorials.musicappui.ui.theme.AccountView
+import eu.tutorials.musicappui.ui.theme.Subscription
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
@@ -167,7 +168,7 @@ fun Navigation(navController: NavController, viewModel: MainViewModel, pd:Paddin
              AccountView()
         }
         composable(Screen.DrawerScreen.Subscription.route){
-
+             Subscription()
         }
     }
 
