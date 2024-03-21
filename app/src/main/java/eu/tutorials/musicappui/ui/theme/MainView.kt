@@ -116,7 +116,7 @@ fun MainView(){
         }
 
     ) {
-        Text("Text", modifier = Modifier.padding(it))
+        Navigation(navController = controller, viewModel = viewModel, pd = it)
 
     }
 }
@@ -147,4 +147,21 @@ fun DrawerItem(
             style = MaterialTheme.typography.h5,
         )
     }
+}
+
+@Composable
+fun Navigation(navController: NavController, viewModel: MainViewModel, pd:PaddingValues){
+
+    NavHost(navController = navController as NavHostController,
+        startDestination = Screen.DrawerScreen.Account.route, modifier = Modifier.padding(pd) ){
+
+        
+        composable(Screen.DrawerScreen.Account.route){
+
+        }
+        composable(Screen.DrawerScreen.Subscription.route){
+
+        }
+    }
+
 }
