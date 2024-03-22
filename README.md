@@ -65,7 +65,7 @@ git clone https://github.com/nishkarsh25/MusicAppUi.git
 
 1. Open Android Studio.
 2. Click on "Open an existing Android Studio project."
-3. Navigate to the directory where you cloned the repository and select the "MyWishlistApp" folder.
+3. Navigate to the directory where you cloned the repository and select the "MusicAppUi" folder.
 4. Click "OK" to open the project.
 
 ## Build and Run
@@ -74,13 +74,38 @@ git clone https://github.com/nishkarsh25/MusicAppUi.git
 2. Click on the "Run" button in Android Studio or use the shortcut Shift + F10 to build and run the project.
 3. Select your device from the list of available devices and click "OK."
 
-## Usage
+## Usage:
 
-1. Upon launching the app, you'll be presented with the wishlist screen.
-2. To add a new item to the wishlist, click on the floating action button (FAB) at the bottom right corner.
-3. Fill in the details for the new item and click the "Add" button.
-4. To update an existing item, click on the item in the wishlist.
-5. Make the necessary changes and click the "Save" button.
+1. Upon launching the app, you'll land on the home screen, where you can explore curated playlists and discover new music based on different moods and genres.
+
+2. **Navigate through different sections using the bottom navigation bar:** 
+   - Click on the "Home" icon to return to the home screen.
+   - Tap on the "Browse" icon to explore various music categories like hits, happy, workout, and more.
+   - Access your music library by selecting the "Library" icon, where you can find playlists, artists, albums, songs, and genres.
+
+3. **Explore your music library:**
+   - In the library section, swipe through different categories or use the search bar to find specific items.
+   - Click on a playlist, artist, album, or song to view more details and play music.
+
+4. **Manage your subscription:**
+   - Open the drawer navigation menu by tapping on the menu icon in the top left corner.
+   - Select the "Subscription" option to manage your subscription plans, view subscription details, and explore available options.
+
+5. **Manage your account:**
+   - From the drawer navigation menu, choose the "Account" option to view your account details and settings.
+   - Add a new account by selecting the "Add Account" option and filling in the required information.
+
+6. **Additional options:**
+   - Access more options and settings by tapping on the "More" icon in the top right corner of the app bar.
+   - Here, you can find options like settings, sharing, and help.
+
+7. **Navigation within the app:**
+   - Use the back button on your device to navigate back to the previous screen.
+   - Tap on the appropriate icons or buttons to perform specific actions, such as playing music, adding items to favorites, or updating account information.
+
+8. **Enjoy your music experience with MusicAppUi!**
+
+
 
 ## Contributing
 
