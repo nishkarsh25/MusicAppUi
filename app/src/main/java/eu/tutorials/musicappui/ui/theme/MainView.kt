@@ -59,6 +59,7 @@ import eu.tutorials.musicappui.screensInBottom
 import eu.tutorials.musicappui.screensInDrawer
 import eu.tutorials.musicappui.ui.theme.AccountDialog
 import eu.tutorials.musicappui.ui.theme.AccountView
+import eu.tutorials.musicappui.ui.theme.Browse
 import eu.tutorials.musicappui.ui.theme.Home
 import eu.tutorials.musicappui.ui.theme.Subscription
 
@@ -195,7 +196,7 @@ fun Navigation(navController: NavController, viewModel: MainViewModel, pd:Paddin
             Home()
         }
         composable(Screen.BottomScreen.Browse.bRoute){
-
+            Browse()
         }
 
         composable(Screen.BottomScreen.Library.bRoute){
