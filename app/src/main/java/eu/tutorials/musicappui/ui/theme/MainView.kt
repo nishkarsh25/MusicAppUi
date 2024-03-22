@@ -59,6 +59,7 @@ import eu.tutorials.musicappui.screensInBottom
 import eu.tutorials.musicappui.screensInDrawer
 import eu.tutorials.musicappui.ui.theme.AccountDialog
 import eu.tutorials.musicappui.ui.theme.AccountView
+import eu.tutorials.musicappui.ui.theme.Home
 import eu.tutorials.musicappui.ui.theme.Subscription
 
 import kotlinx.coroutines.CoroutineScope
@@ -191,14 +192,14 @@ fun Navigation(navController: NavController, viewModel: MainViewModel, pd:Paddin
         startDestination = Screen.DrawerScreen.Account.route, modifier = Modifier.padding(pd) ){
 
         composable(Screen.BottomScreen.Home.bRoute){
-
+            Home()
         }
         composable(Screen.BottomScreen.Browse.bRoute){
 
         }
 
         composable(Screen.BottomScreen.Library.bRoute){
-            
+
         }
 
         composable(Screen.DrawerScreen.Account.route){
